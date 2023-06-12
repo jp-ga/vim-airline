@@ -129,9 +129,9 @@ function! airline#init#bootstrap()
     call extend(g:airline_symbols, {
           \ 'readonly': "\ue0a2",
           \ 'whitespace': "\u2632",
-          \ 'maxlinenr': "\u2630 ",
+          \ 'maxlinenr': "",
           \ 'linenr': " \ue0a1:",
-          \ 'colnr': " \u2105:",
+          \ 'colnr': " \ue0a3:",
           \ 'branch': "\ue0a0",
           \ 'notexists': "\u0246",
           \ 'dirty': "\u26a1",
